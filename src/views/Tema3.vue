@@ -9,7 +9,47 @@
       h1 Auditoría nocturna
     
     #t_3_1.titulo-segundo
-      h2 2.1 Infografía Animada
+      h2 3.1 Objetivo
+
+    #t_3_2.titulo-segundo
+      h2 3.2 El auditor nocturno
+
+    #t_3_3.titulo-segundo
+      h2 3.3 El proceso técnico
+
+    #t_3_4.titulo-segundo
+      h2 3.4 Reportes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
