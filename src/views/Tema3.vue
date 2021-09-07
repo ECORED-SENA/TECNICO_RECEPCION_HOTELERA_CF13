@@ -307,7 +307,29 @@
             .col-md-5
               figure
                 img(src='@/assets/curso/t3-d1.jpg', alt='imagen decorativa')
+          .row(numero="5" titulo="Cierre diario de operaciones")
+            .col-md-7.mb-md-0
+              p.mb-3 Este proceso, como ya se ha mencionado, es automático; es decir, solo se debe lanzar el proceso de auditoría y esperar que este termine. Recuerde que, previo a lanzar el procedimiento, debe verificar que no haya interfaces abiertas.
+              p.mb-3 Al final de este procedimiento, el sistema:
+              ul.lista-ul.mb-4
+                li
+                  i.fas.fa-check
+                  p Carga las tarifas de habitación.
+                li
+                  i.fas.fa-check
+                  p Deja los saldos finales como iniciales del día siguiente.
+                li
+                  i.fas.fa-check
+                  p Cambia la fecha de operación.
+                li
+                  i.fas.fa-check
+                  p Imprime los reportes de auditoría.
+                  
+                  
 
+            .col-md-5
+              figure
+                img(src='@/assets/curso/t3-d1.jpg', alt='imagen decorativa')
                   
 
 
@@ -316,24 +338,140 @@
     br
     #t_3_4.titulo-segundo
       h2 3.4 Reportes
+    p.mb-5  Los reportes de auditoría son la finalización del proceso de revisión y control. También son la forma de dejar evidencia del desarrollo del trabajo.
+
+    h3.titulo-tercero Reporte de extranjería
+    .row.mb-5
+      .col-lg-2
+        figure
+          img(src='@/assets/curso/t3-ic8.svg', alt='imagen decorativa')
+      .col-lg-10
+        p.mb-3  Este reporte es una relación de llegadas y salidas de extranjeros al hotel. Se diligencia en una plataforma tecnológica creada por Migración Colombia denominada SIRE, con el objetivo de facilitar el cumplimiento de las obligaciones migratorias y permitirles a los usuarios reportar a los extranjeros con quienes tienen alguna relación.
+        p.mb-3  Está diseñada para que los usuarios reporten la vinculación, contratación, empleo, admisión, matrícula, desvinculación, retiro, ingreso, alojamiento y hospedaje, atención médica de urgencias y realización de espectáculos artísticos, culturales o deportivos dentro del territorio nacional, relacionadas con los extranjeros, personas naturales o jurídicas, con el objetivo de facilitar el cumplimiento de estas. Para las empresas que prestan el servicio de transporte internacional se permite el registro de viajeros, ya sean colombianos o extranjeros.
+        figure
+          img(src='@/assets/curso/t3-i4.jpg', alt='imagen decorativa')
+        figcaption.mb-5 <b>Nota.</b> &nbsp;Tomada de Migración Colombia (2021)
+        .cajon.color-secundario.p-4.mb-5
+          p.mb-3  <b>En la plataforma SIRE,</b> se debe reportar toda persona natural o jurídica que vincule, contrate, emplee o admita un extranjero mediante cualquier modalidad, en especial, relación laboral, cooperativa o civil que genere un beneficio, y de servicio, como los de salud, alojamiento y hospedaje. A esta plataforma se accede con usuario y contraseña, previo registro de la persona o entidad que realizará el reporte. Es claro que para los establecimientos de alojamiento este registro y reporte es de obligatorio cumplimiento y es parte del proceso de auditoría del hotel. [MOU1]
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-lg-2.text-center
+              figure
+                img.nW(src='@/assets/curso/t3-ic9.svg', alt='imagen decorativa')
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Guía de uso del SIRE
+                  p.text-small Para más información, se sugiere estudiar la «Cartilla de usuario externo – SIRE[MOU1]».
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
+      h3.titulo-tercero Informe de auditoría nocturna
+      .row.mb-5
+        .col-lg-8(data-aos="flip-right")
+          p.mb-3  En la auditoría nocturna, se generan varios reportes entre operacionales y estadísticos. Este generalmente se organiza de acuerdo con las necesidades específicas del establecimiento, ya que algunos gerentes generales podrían requerir más datos financieros que otros.
+          p.mb-3  Este reporte muestra rendimientos diarios y acumulados del mes y el año a la fecha, así como las variaciones respecto al mismo periodo del año anterior. Es importante que los gerentes aborden este informe como una herramienta funcional que proporciona datos financieros y operativos diarios.
+          .cajon.p-4.color-secundario
+            p.mb-0  En algunas ocasiones, y de acuerdo con el tamaño del hotel, este reporte podrá parecer abrumador, pero con la experiencia, se aprenderá a verlo en partes separadas, cada una de las cuales proporciona retroalimentación sobre el rendimiento operativo diario.
+        .col-lg-4(data-aos="flip-left")
+          figure
+            img.nW(src='@/assets/curso/t3-i5.jpg', alt='imagen decorativa')
+
+      h3.titulo-tercero Reporte diario consolidado
+      p.mb-5  A este reporte se le conoce como el <b><i>“daily flash report”</i></b>, y es una síntesis de los datos más importantes del movimiento diario del hotel.
+      .row.mb-5.justify-content-center
+        .col-lg-8
+          figure
+            img(src='@/assets/curso/t3-i6.jpg', alt='imagen decorativa')
+          figcaption <b>Nota.</b> Tomada de Migración Colombia (2013) 
+      
+      .row.mb-5.justify-content-center
+        .col-lg-11
+          .cajon.color-secundario.p-4
+            p.mb-0  Es un reporte de uso frecuente, sobre todo por el staff ejecutivo del hotel, ya que brinda una información rápida del movimiento de este.
+      
+      p.mb-5  Estos son algunos de los datos que brinda este informe.
+
+      TabsC.color-primario.mb-5(data-aos="fade-left")
+        .py-3.py-md-4(titulo="Venta de habitaciones")
+          .row         
+            .col-md-6
+              figure
+                img(src='@/assets/curso/t3-s1.jpg', alt='recepcionista de hotel respondiendo al telefono')
+            .col-md-6.mb-4.mb-md-0
+              .h4 Venta de habitaciones
+              p Es preciso recordar que el alojamiento es la principal fuente de ingresos para el hotel y el departamento que proporciona el mayor beneficio. Por lo tanto, el gerente, Revenue Manager, Mercadeo & Ventas y el gerente de recepción también querrán conocer esta cifra. Este es un dato importante de monitorear diariamente.
+
+        .py-3.py-md-4(titulo="Totales departamentales de alimentos y bebidas")
+          .row         
+            .col-md-6
+              figure
+                img(src='@/assets/curso/t3-s2.jpg', alt='recepcionista de hotel respondiendo al telefono')
+            .col-md-6.mb-4.mb-md-0
+              .h4 Totales departamentales de alimentos y bebidas
+              p Estas cifras son de especial atención para el gerente general, ya que evalúan la eficacia del gerente de alimentos y bebidas y su personal. Es importante hacer esto diariamente en lugar de semanal o mensualmente.
+
+        .py-3.py-md-4(titulo="Total de ocupación")
+          .row         
+            .col-md-6
+              figure
+                img(src='@/assets/curso/t3-s3.jpg', alt='recepcionista de hotel respondiendo al telefono')
+            .col-md-6.mb-4.mb-md-0
+              .h4 Total de ocupación
+              p.mb-3 Estas cifras proporcionan al gerente general, al revenue manager, gerente de la recepción y al departamento de mercadeo & ventas una visión sobre la eficacia de la publicidad y mercadeo en la promoción del hotel. 
+              p.mb-3 Proporciona detalles financieros de fondo de lo que funciona y lo que no, con respecto a marketing en línea e impresos, llamadas en frío, etc. Cuando los totales diarios caen por debajo de las cifras proyectadas, se necesita un esfuerzo grupal para determinar qué medidas se deben tomar para revitalizar el marketing.
+
+        .py-3.py-md-4(titulo="Recomendaciones")
+          .row.justify-content-center         
+            .col-md-4
+              figure
+                img.nW(src='@/assets/curso/t3-s4.jpg', alt='recepcionista de hotel respondiendo al telefono')
+            .col-md-8.mb-4.mb-md-0
+              .h4 Recomendaciones
+              p.mb-4 Cuando hay baja ocupación o por debajo de las proyecciones, conviene hacer preguntas como:
+              ul.lista-ul.mb-4
+                li
+                  i.fas.fa-check
+                  p ¿Hay un número alto de (OOO) habitaciones fuera de servicio?
+                li
+                  i.fas.fa-check
+                  p ¿Eso tuvo un efecto en la baja ocupación?
+                li
+                  i.fas.fa-check
+                  p ¿Hubo una baja cifra de llegadas debido a problemas externos?
+                li
+                  i.fas.fa-check
+                  p ¿El bajo rendimiento fue causado por un grupo que no llegó?
+                li
+                  i.fas.fa-check
+                  p ¿No estamos pidiendo tarjetas de crédito para garantizar las reservas de habitación? 
+              p.mb-3  Cuando surgen estas preguntas, el gerente general hará seguimiento al gerente departamental correspondiente; a manera de ejemplo, el director de mantenimiento (habitaciones OOO); gerente de marketing & ventas (cuota de alojamiento de grupos) o gerente de recepción (reservas sin tarjeta de crédito). Estos ejemplos ilustran algunas de las muchas situaciones que se presentan día a día en la operación hotelera.
+
+      h4.titulo-cuarto  Reporte de saldos elevados
+      .row.mb-5
+        .col-lg-2(data-aos="slide-left")
+          figure
+            img.nW(src='@/assets/curso/t3-ic10.svg', alt='icono decorativo')
+        .col-lg-10(data-aos="slide-right")
+          .bloque-texto-d.color-secundario.p-4.mb-5
+            .bloque-texto-d__texto.mb-2
+              i.fas.fa-quote-left
+              p.text-regular Este reporte deberá considerar como saldo excedido todo aquel en que el crédito al cliente ha superado el límite permitido por la gerencia y la política de créditos del hotel. Este reporte se contrasta con las garantías y se envía una copia al gerente de recepción, quien procederá a comunicar al cliente dicho saldo excedido para el abono o liquidación por este.
+              i.fas.fa-quote-right
+            .bloque-texto-d__autor 
+              .h5.mb-0 (Corral, 2012)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      h4.titulo-cuarto  Reporte de gerencia
+      .row.mb-5
+        .col-lg-2
+          figure
+            img.nW(src='@/assets/curso/t3-ic11.svg', alt='icono decorativo')
+        .col-lg-10
+          p.mb-3  El informe del gerente es un listado de las estadísticas de ocupación del día anterior, tales como porcentaje de ocupación, porcentaje de rendimiento, tarifa diaria promedio, RevPAR y el número de huéspedes. Estos datos son necesarios para monitorear el funcionamiento de un negocio financieramente viable. El gerente general, el contralor, el gerente de recepción y el director de marketing y ventas revisan estas estadísticas diariamente.
+          p.mb-3  Adicionalmente, y de acuerdo con la configuración del PMS, se presentan algunos otros reportes, pero, en general, se trata de reportes de operación y estadísticos detallados.
 
 
 
