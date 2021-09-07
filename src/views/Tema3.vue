@@ -245,7 +245,41 @@
               p.mb-3  Como esta es una revisión diaria, solo se revisan las reservas que llegaron ese día, para comprobar que todos los huéspedes tengan una forma de pago válida, que el hotel pueda hacer efectiva en caso de que el huésped no pase por caja a legalizar su salida.
 
               p.mb-3  También conviene revisar si en las carpetas de los huéspedes que salieron aún reposan dichas garantías. Es bastante común que al momento del check-out los cajeros olviden devolver los cupones de tarjeta de crédito. Cuando esto sucede, se deben tomar estos cupones y relacionarlos. Estos se retienen para preservarlos y evitar que alguien haga un uso indebido de ellos.
+    //-- dropdown 2
+    h3.titulo-tercero Fase de cierre de sistemas
+    .row.mb-5.justify-content-center
+      .col-lg-10 
+        LineaTiempoD.color-acento-contenido.mb-5
+          .row(numero="1" titulo="Conciliación de los movimientos financieros departamentales")
+            .col-md-7.mb-md-0
+              p.mb-3 Uno de los requisitos para que el proceso de auditoría se desarrolle sin contratiempo es que solo el equipo (computador) del auditor esté logueado al momento de lanzar el proceso. Esto se hace para preservar el sistema de cargos posteados desde esas estaciones y errores que se puedan causar una vez esté en ejecución el proceso.
+              p.mb-3 Así que, una vez terminan los turnos de los ambientes, y como ya se han revisado dichos movimientos, se puede ejecutar el comando del PMS para revisar que no haya estaciones abiertas. Este proceso se puede volver a hacer justo antes de correr el proceso de auditoría.
 
+            .col-md-5
+              figure
+                img(src='@/assets/curso/t3-d1.jpg', alt='imagen decorativa')
+          .row(numero="2" titulo="Cierre de datáfonos y operaciones")
+            .col-md-7.mb-md-0
+              p.mb-3 Este paso se trata de hacer el consolidado diario de ventas en cada datáfono en operación en el hotel. En este punto, ya se han revisado las transacciones de los puntos de venta, por lo que el cierre debe coincidir con el valor total reportado en ventas con forma de pago tarjeta de crédito o débito. 
+              p.mb-3 Es muy importante verificar los totales en un precierre, ya que, una vez cerrado el datáfono, se libera la memoria de este e imprime los reportes necesarios. De acuerdo con las políticas del hotel, este cierre lo puede hacer el cajero que finaliza turno en el ambiente o el auditor una vez finalice la reconciliación del movimiento.
+
+            .col-md-5
+              figure.mb-5
+                .video
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            .col-lg-8
+              .tarjeta.color-acento-contenido.p-3.mb-5
+                .row.justify-content-around.align-items-center
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h3.mb-1 Trasunto
+                        p.text-small Conozca el formato de un trasunto hotelero.
+                      .col-sm-auto
+                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                          span Descargar
+                          i.fas.fa-file-download
+             
 
 
 
