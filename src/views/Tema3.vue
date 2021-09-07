@@ -89,13 +89,167 @@
             p Verificar qué llegadas están pendientes de arribar.
           
         p.mb-3  Una vez hecho esto, estará a cargo del turno y lo siguiente será administrar los procesos a realizar de acuerdo con el tiempo disponible. 
-        .cajon.color-secundario.p-4
-          p Por lo general, primero se realizan las labores de recepción y posteriormente se inicia con el proceso de auditoría. Este tiempo lo establece cada hotel, pero por lo general inicia luego de la medianoche, cuando el movimiento es más lento y todos o casi todos los ambientes han cerrado.
+        .cajon.color-secundario.p-4.mb-4
+          p.mb-0 Por lo general, primero se realizan las labores de recepción y posteriormente se inicia con el proceso de auditoría. Este tiempo lo establece cada hotel, pero por lo general inicia luego de la medianoche, cuando el movimiento es más lento y todos o casi todos los ambientes han cerrado.
         
-        p.mb-3  El proceso de auditoría consta de dos fases: un primer momento de revisión de información y el segundo, en el que se realiza el proceso de cierre del sistema.
-          
-          
+    p.mb-3  El proceso de auditoría consta de dos fases: un primer momento de revisión de información y el segundo, en el que se realiza el proceso de cierre del sistema.
 
+    h3.titulo-tercero Fase revisión de información   
+    .row.mb-5.justify-content-center
+      .col-lg-10 
+        LineaTiempoD.color-acento-contenido.mb-5
+          .row(numero="1" titulo="Conciliación de los movimientos financieros departamentales")
+            .col-md-2.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/t3-ic2.svg', alt='imagen decorativa')
+            .col-md-10
+              p.mb-3 Los módulos de un sistema de gestión de propiedades – PMS, facilitan el posteo de los cargos y pagos de los huéspedes en cada uno de los ambientes. La siguiente es una lista típica de departamentos de punto de venta para los que se reportan ingresos:
+              ul.lista-ul
+                li
+                  i.fas.fa-check
+                  p Restaurante T1
+                li
+                  i.fas.fa-check
+                  p Restaurante T2
+                li
+                  i.fas.fa-check
+                  p Restaurante T3
+                li
+                  i.fas.fa-check
+                  p Teléfonos
+                li
+                  i.fas.fa-check
+                  p Spa T1
+                li
+                  i.fas.fa-check
+                  p Spa T2
+                li
+                  i.fas.fa-check
+                  p Spa T3
+              
+              p.mb-3  Tenga en cuenta cómo el restaurante y el spa se clasifican por turnos para facilitar el mantenimiento de registros. El proceso de control y revisión de estos movimientos se hace de forma manual; en la jerga hotelera, se le conoce como “punteo” y se trata de tomar los cierres de cada cajero de ambientes y verificar que todos los cargos coinciden con los comprobantes.
+                   
+          .row(numero="2" titulo="Ejemplo de conciliación de los movimientos financieros departamentales")
+            .col-md-2.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/t3-ic3.svg', alt='imagen decorativa')
+            .col-md-10
+              ul.lista-ul.mb-4
+                li
+                  i.fas.fa-check
+                  p El auditor tomará cada paquete de estos y revisará que el consecutivo de comprobantes de venta esté completo y que coincida con el del día anterior, que está relacionado en una bitácora.             
+                li
+                  i.fas.fa-check
+                  p Posteriormente, compara cada comprobante de venta versus el reporte de ventas detallado y marca los productos allí registrados. En los consumos de alimentos y bebidas se suelen comparar las comandas. Si encuentra alguna inconsistencia verificará y corregirá.
+                li
+                  i.fas.fa-check
+                  p Revisa si hay descuentos y que los mismos estén autorizados y correctamente aplicados.
+                li
+                  i.fas.fa-check
+                  p Revisa las gratuidades otorgadas en el punto de venta y su respectiva autorización.
+                li
+                  i.fas.fa-check
+                  p También revisa que la forma de pago en la factura sea la reportada en el reporte de ventas por el cajero.
+                li
+                  i.fas.fa-check
+                  p Relaciona en la bitácora el consecutivo de facturas utilizado en el día.
+              
+              a.boton.color-acento-botones.texto-blanco.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                span Ver documento de ejemplo
+                i.fas.fa-file-download
+
+          .row(numero="3" titulo="Revisión de folios maestros")
+            .col-md-2.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/t3-ic4.svg', alt='imagen decorativa')
+            .col-md-10
+              p.mb-3  Una vez efectuado el punteo y corrección de movimientos departamentales, el auditor continúa su labor revisando los folios maestros. Recuerde que estas son cuentas de huéspedes que no se han cerrado por algún motivo, o de las personas que no están registradas en el hotel pero que han efectuado algún pago o depósito. Él o ella debe revisar los soportes de los cargos y verificar su exactitud.
+              p.mb-3  Estas cuentas son de especial cuidado, ya que pueden mostrar saldos bastante grandes y se afectan con movimientos y transferencias durante el día. En ellas se pueden presentar situaciones como transferencias erradas, o movimientos no autorizados, por eso, dentro del proceso, se conservan los saldos diarios de las cuentas.
+              a.boton.color-acento-botones.texto-blanco.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                span Ver documento de ejemplo
+                i.fas.fa-file-download  
+
+          .row(numero="4" titulo="Revisión de saldos huésped")
+            .col-md-2.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/t3-ic5.svg', alt='imagen decorativa')
+            .col-md-10
+              p.mb-3  La revisión de las cuentas huésped se hace de la misma forma. La opción de cargos de huéspedes del módulo de auditoría nocturna, en un sistema de gestión de propiedades – PMS, puede ordenar y totalizar todos los cargos y pagos departamentales posteados desde los puntos de venta.
+              p.mb-3  Si no se dispone de un sistema PMS, la revisión se puede efectuar de forma sencilla, en una hoja de cálculo que se conoce como trasunto. 
+              p.mb-3  El trasunto sirve para digitar los débitos y créditos de las cuentas huésped, determinar los saldos y verificar el movimiento del día, y, aunque en los sistemas PMS viene configurado por defecto, es una valiosa herramienta para entender cómo es el manejo de los cargos del hotel.
+              .tarjeta.color-acento-contenido.p-3.mb-5
+                .row.justify-content-around.align-items-center
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        h3.mb-1 Trasunto
+                        p.text-small Conozca el formato de un trasunto hotelero.
+                      .col-sm-auto
+                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                          span Descargar
+                          i.fas.fa-file-download
+
+          .row(numero="5" titulo="Revisión de tarifas e impuestos")
+            .col-md-2.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/t3-ic6.svg', alt='imagen decorativa')
+            .col-md-10
+              p.mb-3  Recuerde que el proceso del cargo de habitaciones es un proceso que se ejecuta de forma automática durante la rutina de auditoría del PMS, por tanto, es muy importante que se revise previamente que los cargos que se efectuarán están correctos.
+              p.mb-3  Un hotel, dentro de su actividad comercial y operativa, va creando diferentes tarifas. El concepto de tarifa va más allá del precio que se cobra por el alojamiento, ya que usualmente una tarifa se compone de varios cargos (valor alojamiento, impuestos, desayuno, etc.) y adicionalmente tiene un componente de mercadeo, ya que las tarifas se asignan a un segmento de mercado específico. Por este motivo, una acuciosa revisión de tarifas es vital para el buen funcionamiento del hotel. En este proceso se revisa que:
+              ul.lista-ul.mb-4
+                li
+                  i.fas.fa-check
+                  p Las tarifas hayan sido asignadas correctamente en las reservaciones.
+                li
+                  i.fas.fa-check
+                  p Las tarifas con valor cero (0) realmente pertenezcan a una designación de gerencia (cortesía, administrativo, house use, etc.).
+                li
+                  i.fas.fa-check
+                  p Las tarifas aplicadas corresponden a las autorizadas por gerencia de acuerdo con el plan general de tarifas.
+                li
+                  i.fas.fa-check
+                  p Las tarifas tengan la asignación correcta según el segmento de mercado. 
+                li
+                  i.fas.fa-check
+                  p Las tarifas apliquen al número de personas que están registradas en la habitación.   
+                li
+                  i.fas.fa-check
+                  p Las tarifas tengan la aplicación de impuestos adecuada.   
+                li
+                  i.fas.fa-check
+                  p Las tarifas en moneda extranjera tengan bien aplicado el código de moneda o la conversión a moneda local, según sea el caso.
+              p.mb-3  Los planes de tarifas pueden cambiar de valor de un día a otro; por ejemplo, para el fin de semana. Una vez culminada esta revisión, estará seguro de que el cargue se efectuará de manera correcta.     
+              
+              a.boton.color-acento-botones.texto-blanco.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                span Ver documento de ejemplo
+                i.fas.fa-file-download  
+
+          .row(numero="6" titulo="Revisión de tarifas e impuestos")
+            .col-md-2.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/t3-ic7.svg', alt='imagen decorativa')
+            .col-md-10
+              p.mb-3  Al revisar las carpetas de las cuentas huésped, se revisan las garantías. Aquí se debe revisar:
+              ul.lista-ul.mb-4
+                li
+                  i.fas.fa-check
+                  p Que las cuentas de pago directo tengan un abono a la cuenta o un voucher de tarjeta de crédito firmado. También puede darse el caso que la reserva se haya garantizado con un anticipo; si este es el caso, hay que verificar que el anticipo se haya cargado a la cuenta.
+                li
+                  i.fas.fa-check
+                  p En caso de que la garantía sea un depósito, por ejemplo, un monto en dólares, este depósito debe tener un soporte de ingreso (recibo), estar relacionado en el libro de depósitos y estar físicamente en una caja fuerte.
+                li
+                  i.fas.fa-check
+                  p Que las cuentas de empresa tengan una carta que respalde la cuenta y que permita su cierre en el momento del <b><i>check-out</i></b>. Si este es el caso, también se revisa que el folio de la empresa esté creado y que los cargos autorizados en la carta estén cargados en ese folio. Este proceso se conoce como <i><b>“routing”</b></i>.
+                 
+                  
+              p.mb-3  Como esta es una revisión diaria, solo se revisan las reservas que llegaron ese día, para comprobar que todos los huéspedes tengan una forma de pago válida, que el hotel pueda hacer efectiva en caso de que el huésped no pase por caja a legalizar su salida.
+
+              p.mb-3  También conviene revisar si en las carpetas de los huéspedes que salieron aún reposan dichas garantías. Es bastante común que al momento del check-out los cajeros olviden devolver los cupones de tarjeta de crédito. Cuando esto sucede, se deben tomar estos cupones y relacionarlos. Estos se retienen para preservarlos y evitar que alguien haga un uso indebido de ellos.
+
+
+
+
+                  
 
 
     Separador
