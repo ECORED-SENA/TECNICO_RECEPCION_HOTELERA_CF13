@@ -154,14 +154,16 @@
                   i.fas.fa-check
                   p Relaciona en la bitácora el consecutivo de facturas utilizado en el día.
               
-              a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal1 = true")
+              a.boton.color-acento-botones.mb-5.indicador__container(@click="modal1 = true")
                 span Ver documento de ejemplo
                 .indicador--click(v-if="mostrarIndicador")
             ModalA(:abrir-modal.sync="modal1")
               .row.align-items-center
-                .col-md-6.mb-4.mb-md-0
-                  figcaption <b>Figura 2</b> <i>Revisión movimientos financieros departamentales</i>
-
+                .col-md-12.mb-4.mb-md-0
+                  figcaption.customCaption <b>Figura 2</b> <i>Revisión movimientos financieros departamentales</i>
+                  figure
+                    img(src='@/assets/curso/overlay1.jpg', alt='imagen decorativa')
+                  figcaption  Nota. Adaptado de eZee BurrP (s.f.)
 
           .row(numero="3" titulo="Revisión de folios maestros")
             .col-md-2.mb-4.mb-md-0
@@ -170,9 +172,16 @@
             .col-md-10
               p.mb-3  Una vez efectuado el punteo y corrección de movimientos departamentales, el auditor continúa su labor revisando los folios maestros. Recuerde que estas son cuentas de huéspedes que no se han cerrado por algún motivo, o de las personas que no están registradas en el hotel pero que han efectuado algún pago o depósito. Él o ella debe revisar los soportes de los cargos y verificar su exactitud.
               p.mb-3  Estas cuentas son de especial cuidado, ya que pueden mostrar saldos bastante grandes y se afectan con movimientos y transferencias durante el día. En ellas se pueden presentar situaciones como transferencias erradas, o movimientos no autorizados, por eso, dentro del proceso, se conservan los saldos diarios de las cuentas.
-              a.boton.color-acento-botones.texto-blanco.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.mb-5.indicador__container(@click="modal2 = true")
                 span Ver documento de ejemplo
-                i.fas.fa-file-download  
+                .indicador--click(v-if="mostrarIndicador")
+            ModalA(:abrir-modal.sync="modal2")
+              .row.align-items-center
+                .col-md-12.mb-4.mb-md-0
+                  figcaption.customCaption <b>Figura 3</b> <i>Cuentas por cobrar</i>
+                  figure
+                    img(src='@/assets/curso/overlay2.jpg', alt='imagen decorativa')
+                  figcaption  Nota. Adaptado de eZee BurrP (s. f.)
 
           .row(numero="4" titulo="Revisión de saldos huésped")
             .col-md-2.mb-4.mb-md-0
@@ -186,11 +195,11 @@
                 .row.justify-content-around.align-items-center
                   .col
                     .row.justify-content-between.align-items-center
-                      .col.mb-3.mb-sm-0
+                      .col.mb-3.mb-sm-0.text-noir
                         h3.mb-1 Trasunto
                         p.text-small Conozca el formato de un trasunto hotelero.
                       .col-sm-auto
-                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/trasunto.pdf')" target="_blank")
+                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/trasunto.zip')" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
 
@@ -225,9 +234,16 @@
                   p Las tarifas en moneda extranjera tengan bien aplicado el código de moneda o la conversión a moneda local, según sea el caso.
               p.mb-3  Los planes de tarifas pueden cambiar de valor de un día a otro; por ejemplo, para el fin de semana. Una vez culminada esta revisión, estará seguro de que el cargue se efectuará de manera correcta.     
               
-              a.boton.color-acento-botones.texto-blanco.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-botones.mb-5.indicador__container(@click="modal3 = true")
                 span Ver documento de ejemplo
-                i.fas.fa-file-download  
+                .indicador--click(v-if="mostrarIndicador")
+            ModalA(:abrir-modal.sync="modal3")
+              .row.align-items-center
+                .col-md-12.mb-4.mb-md-0
+                  figcaption.customCaption <b>Figura 4</b> <i>Revisión de tarifas</i>
+                  figure
+                    img(src='@/assets/curso/overlay3.jpg', alt='imagen decorativa')
+                  figcaption  Nota. Adaptado de eZee BurrP (s. f.)
 
           .row(numero="6" titulo="Revisión de tarifas e impuestos")
             .col-md-2.mb-4.mb-md-0
@@ -277,16 +293,16 @@
                 .row.justify-content-around.align-items-center
                   .col
                     .row.justify-content-between.align-items-center
-                      .col.mb-3.mb-sm-0
-                        h3.mb-1 Trasunto
-                        p.text-small Conozca el formato de un trasunto hotelero.
+                      .col.mb-3.mb-sm-0.text-noir
+                        h3.mb-1 Uso del datáfono
+                        p.text-small Guía rápida de uso de datáfono
                       .col-sm-auto
                         a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2 -Guia-rapida-del-datafono.pdf')" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
           
           .row(numero="3" titulo="Procesamiento de reservas faltantes")
-            .col-md-7.mb-md-0
+            .col-md-12.mb-md-0
               p.mb-3 Para proceder al cierre final de auditoría, se debe determinar en qué estatus quedarán las reservas que faltan por registrarse. Este paso está directamente relacionado con la garantía de reservas existente para cada una de las reservas sin registrarse. En este punto, hay que decidir entre tres opciones posibles:
               ul.lista-ul.mb-4
                 li
@@ -299,12 +315,18 @@
                   i.fas.fa-check
                   p La última opción es cancelar la reserva. Esta opción se aplica a reservas sin garantía. También es importante revisar la duración de la estadía. El criterio no es igual para una reserva que pernoctaría una sola noche a otra que estaría 10 noches.V
               p.mb-3  En resumen, en este paso se debe resolver el estatus de cada una de esas reservas faltantes.
-              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Ver documento de ejemplos
-                i.fas.fa-file-download
-            .col-md-5
+              a.boton.color-acento-botones.mb-5.indicador__container(@click="modal4 = true")
+                span Ver documento de ejemplo
+                .indicador--click(v-if="mostrarIndicador")
+            ModalA(:abrir-modal.sync="modal4")
+              .row.align-items-center
+                .col-md-12.mb-4.mb-md-0
+                  figcaption.customCaption <b>Figura 4</b> <i>Revisión de tarifas</i>
+                  figure
+                    img(src='@/assets/curso/overlay4.jpg', alt='imagen decorativa')
+                  figcaption  Nota. Adaptado de eZee BurrP (s. f.)
              
-          .row(numero="4" titulo="Procesamiento de reservas faltantes")
+          .row(numero="4" titulo="Cierre de caja")
             .col-md-7.mb-md-0
               p.mb-3 Es preciso recordar que el auditor nocturno desempeña varios roles, entre ellos, el de cajero en el turno de la noche. En ese rol, una vez reciba todos los pagos y registre las reservas faltantes, deberá consolidar su movimiento de pagos recibidos y cerrar su turno de caja de acuerdo con el procedimiento.
               p.mb-3 Tenga en cuenta, al hacer la reconciliación, que en la práctica su usuario de caja se abre dos veces. Una en la madrugada después de la auditoria y otra en la noche, previo a la auditoría; esas dos aperturas hacen parte de un mismo movimiento.
@@ -501,6 +523,9 @@ export default {
   data: () => ({
     mostrarIndicador: true,
     modal1: false,
+    modal2: false,
+    modal3: false,
+    modal4: false,
   }),
   mounted() {
     this.$nextTick(() => {
