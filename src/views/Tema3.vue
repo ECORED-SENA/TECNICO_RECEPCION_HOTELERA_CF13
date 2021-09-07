@@ -154,9 +154,14 @@
                   i.fas.fa-check
                   p Relaciona en la bitácora el consecutivo de facturas utilizado en el día.
               
-              a.boton.color-acento-botones.texto-blanco.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-contenido.mb-5.indicador__container(@click="modal1 = true")
                 span Ver documento de ejemplo
-                i.fas.fa-file-download
+                .indicador--click(v-if="mostrarIndicador")
+            ModalA(:abrir-modal.sync="modal1")
+              .row.align-items-center
+                .col-md-6.mb-4.mb-md-0
+                  figcaption <b>Figura 2</b> <i>Revisión movimientos financieros departamentales</i>
+
 
           .row(numero="3" titulo="Revisión de folios maestros")
             .col-md-2.mb-4.mb-md-0
@@ -185,7 +190,7 @@
                         h3.mb-1 Trasunto
                         p.text-small Conozca el formato de un trasunto hotelero.
                       .col-sm-auto
-                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/trasunto.pdf')" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
 
@@ -276,7 +281,7 @@
                         h3.mb-1 Trasunto
                         p.text-small Conozca el formato de un trasunto hotelero.
                       .col-sm-auto
-                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2 -Guia-rapida-del-datafono.pdf')" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
           
@@ -494,7 +499,8 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
+    modal1: false,
   }),
   mounted() {
     this.$nextTick(() => {
