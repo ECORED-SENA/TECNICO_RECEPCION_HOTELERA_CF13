@@ -90,7 +90,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'AAtención al cliente y manejo de PQRS',
+        titulo: 'Atención al cliente y manejo de PQRS',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -194,96 +194,48 @@ export default {
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'ADR',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Es la sigla de <i>“Average Daily Rate”</i> o, en español, Tarifa Promedio Diaria. Esta se calcula totalizando la venta de las habitaciones ocupadas y dividiendo el valor por el número de habitaciones ocupadas.',
     },
     {
-      termino: 'Suftware',
-      terminoHtml: '<em>Suftware</em>',
+      termino: 'Bitácora',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'La bitácora, en hotelería, es el libro donde se anotan las novedades del turno. Con el correcto uso de este libro, se garantiza que las novedades de entrega de un turno a otro quedan registradas y son leídas, es decir, se debe firmar al frente de cada novedad como enterado.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Complementary',
+      terminoHtml: '<em>Complementary</em>',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Esta es una habitación que también tiene una tarifa de habitación con cargo cero por habitación y que se ofrece a huéspedes especiales, líderes de la industria, funcionarios del gobierno, <i>tour</i> conductor, entre otros.',
     },
     {
-      termino: 'Áectores',
-      terminoHtml: '<em>Áectores</em>',
+      termino: 'House use',
+      terminoHtml: '<em>House use</em>',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Son las habitaciones que, en la operación, se destinan a uso interno. Su principal característica es que tienen tarifa de habitación con cargo cero por habitación. Por ejemplo, la habitación del gerente de turno.',
     },
     {
-      termino: 'Moda',
+      termino: 'RevPAR',
+      terminoHtml: '<em>RevPAR</em>',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'El <i>RevPAR</i> es la métrica más eficiente para medir la rentabilidad de una propiedad hotelera. Es la abreviatura de <i>“Revenue Per Available Room”</i> o “ingreso por habitación disponible”. Se calcula dividiendo los ingresos totales de la habitación por el total de habitaciones disponibles.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Guía uso del Datáfono: CredibanCo. (2021). <i>Guía rápida de uso del datáfono.</i>',
+      tipo: 'Guía en pdf',
+      link:
+        'https://www.credibanco.com/wp-content/uploads/2021/01/guia-rapida-del-datafono.pdf',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Cartilla Uso del SIRE: Migración Colombia. (2013). <i>Cartilla de Usuario Externo SIRE</i>. Ministerio de Relaciones Exteriores.',
+      tipo: 'Cartilla en pdf',
+      link:
+        'http://educa.barranquilla.edu.co/attachments/article/1034/Manual%20de%20Usuario%20SIRE.pdf',
     },
   ],
   creditos: {
