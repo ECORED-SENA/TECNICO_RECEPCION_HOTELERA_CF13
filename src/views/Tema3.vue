@@ -192,16 +192,14 @@
               p.mb-3  Si no se dispone de un sistema PMS, la revisión se puede efectuar de forma sencilla, en una hoja de cálculo que se conoce como trasunto. 
               p.mb-3  El trasunto sirve para digitar los débitos y créditos de las cuentas huésped, determinar los saldos y verificar el movimiento del día, y, aunque en los sistemas PMS viene configurado por defecto, es una valiosa herramienta para entender cómo es el manejo de los cargos del hotel.
               .tarjeta.color-acento-contenido.p-3.mb-5
-                .row.justify-content-around.align-items-center
-                  .col
-                    .row.justify-content-between.align-items-center
-                      .col.mb-3.mb-sm-0.text-noir
-                        h3.mb-1 Trasunto
-                        p.text-small Conozca el formato de un trasunto hotelero.
-                      .col-sm-auto
-                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/trasunto.zip')" target="_blank")
-                          span Descargar
-                          i.fas.fa-file-download
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0.text-noir
+                    h3.mb-1 Trasunto
+                    p.text-small Conozca el formato de un trasunto hotelero.
+                  .col-sm-auto
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/trasunto.zip')" target="_blank")
+                      span Descargar
+                      i.fas.fa-file-download
 
           .row(numero="5" titulo="Revisión de tarifas e impuestos")
             .col-md-2.mb-4.mb-md-0
