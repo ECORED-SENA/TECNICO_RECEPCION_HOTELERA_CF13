@@ -4,7 +4,7 @@ export default {
     descripcionCurso:
       'De la misma forma que el cliente ingresa al hotel, debe salir de él al final de su estancia. En este componente, revisaremos los conceptos para poder llevar a cabo con eficiencia un <i>check-out</i>. Recuerde que este es el último paso de la estancia del huésped y se tiene la responsabilidad de cerrar la estadía en forma impecable. Cualquier error en este momento puede dar al traste con toda la experiencia del usuario en el hotel. Dentro de las habilidades claves del recepcionista está conocer el proceso de auditoría nocturna, en el cual se concilian los movimientos diarios del hotel.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [

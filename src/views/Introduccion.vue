@@ -9,21 +9,15 @@
           i.fas.fa-info
       h1 Introducción
     
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
-    
-    p.mb-5 La necesidad de mitigar la pandemia por COVID-19 ha obligado a la comunidad científica internacional, a desarrollar una serie de investigaciones y desarrollos tendientes a presentar una vacuna para hacerle frente a esta enfermedad que aumenta día a día su morbi mortalidad en Colombia. Es así, como en diciembre de 2020, la comunidad científica presenta los resultados de varios desarrollos de vacunas, que ofrecen eficacia y seguridad, respaldados por estudios clínicos rigurosos.
+    .row
+      .col-lg-5
+        figure.mb-5(data-aos="fade-up")
+          img(src="@/assets/curso/t0-i1.jpg", alt="imagen decorativa")
+      .col-lg-7
+        p.mb-3.text-bold(data-aos="fade-up")  Como ya se ha mencionado, la gestión financiera del hotel comienza y termina en la recepción. El proceso de check-out es el cierre de la estancia del huésped y requiere de toda la atención y agilidad para llevarlo a buen término.
+        p.mb-3(data-aos="fade-up")  Comienza con el procesamiento preciso y oportuno de las cuentas de los huéspedes, además, esta responsabilidad se comparte con la oficina del contralor, para que esta información se provea al departamento financiero de una forma correcta. En los hoteles, existe el proceso de auditoría nocturna, el cual hace un seguimiento detallado a la actividad financiera de las cuentas del huésped.
+        p.mb-3(data-aos="fade-up")  Para la elaboración de este componente, se abordaron varios autores conocidos en check-out y atención de PQRS, de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos del servicio de recepción hotelera.
 
-    figure.mb-5
-      img(src="@/assets/curso/banner-intro.jpg", alt="Texto que describa la imagen")
-      figcaption Imagen 1. Vacunación
-
-    p.mb-0 La llegada de nuevas vacunas al país supone un reto para el talento humano en salud responsable de la vacunación y desarrollar habilidades para ofrecer una orientación oportuna y segura a las personas objeto de la vacuna.
-      br
-      br
-      | En ese orden de ideas, este componente formativo guía al aprendiz hacia la identificación de los aspectos normativos, técnicos y operativos de la vacunación contra COVID19 en Colombia y de las generalidades de la infección por SARS-2 COVID 19.
 
 </template>
 
