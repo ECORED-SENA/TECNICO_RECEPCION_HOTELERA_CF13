@@ -266,7 +266,7 @@
             .col-md-5
               figure.mb-5
                 .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/JaIipyWNXLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
             .col-lg-8
               .tarjeta.color-acento-contenido.p-3.mb-5
                 .row.justify-content-around.align-items-center
@@ -276,12 +276,37 @@
                         h3.mb-1 Trasunto
                         p.text-small Conozca el formato de un trasunto hotelero.
                       .col-sm-auto
-                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
+          
+          .row(numero="3" titulo="Procesamiento de reservas faltantes")
+            .col-md-7.mb-md-0
+              p.mb-3 Para proceder al cierre final de auditoría, se debe determinar en qué estatus quedarán las reservas que faltan por registrarse. Este paso está directamente relacionado con la garantía de reservas existente para cada una de las reservas sin registrarse. En este punto, hay que decidir entre tres opciones posibles:
+              ul.lista-ul.mb-4
+                li
+                  i.fas.fa-check
+                  p La primera es si la reserva se deja pasar en auditoría como no show, es decir que, dentro del proceso de cierre, el mismo sistema hizo la cancelación y marcó la reserva como “No Show”. Esto se realiza con base en la política del hotel y sobre todo si la reserva tiene garantía de la cual se pueda cobrar la penalidad en caso de no llegar.
+                li
+                  i.fas.fa-check
+                  p La segunda situación es que de antemano se conozca la hora de arribo de la reserva. Si esta llega más tarde, se puede dar check-in a la reserva para que, al procesar las tarifas, esta cargue automáticamente.
+                li
+                  i.fas.fa-check
+                  p La última opción es cancelar la reserva. Esta opción se aplica a reservas sin garantía. También es importante revisar la duración de la estadía. El criterio no es igual para una reserva que pernoctaría una sola noche a otra que estaría 10 noches.V
+              p.mb-3  En resumen, en este paso se debe resolver el estatus de cada una de esas reservas faltantes.
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                span Ver documento de ejemplos
+                i.fas.fa-file-download
+            .col-md-5
              
+          .row(numero="4" titulo="Procesamiento de reservas faltantes")
+            .col-md-7.mb-md-0
+              p.mb-3 Es preciso recordar que el auditor nocturno desempeña varios roles, entre ellos, el de cajero en el turno de la noche. En ese rol, una vez reciba todos los pagos y registre las reservas faltantes, deberá consolidar su movimiento de pagos recibidos y cerrar su turno de caja de acuerdo con el procedimiento.
+              p.mb-3 Tenga en cuenta, al hacer la reconciliación, que en la práctica su usuario de caja se abre dos veces. Una en la madrugada después de la auditoria y otra en la noche, previo a la auditoría; esas dos aperturas hacen parte de un mismo movimiento.
 
-
+            .col-md-5
+              figure
+                img(src='@/assets/curso/t3-d1.jpg', alt='imagen decorativa')
 
                   
 
