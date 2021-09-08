@@ -389,7 +389,7 @@
                   h3.mb-1 Guía de uso del SIRE
                   p.text-small Para más información, se sugiere estudiar la «Cartilla de usuario externo – SIRE[MOU1]».
                 .col-sm-auto
-                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo_3-Cartilla de Usuario Externo SIRE.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
