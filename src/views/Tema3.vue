@@ -295,7 +295,7 @@
                         h3.mb-1 Uso del datáfono
                         p.text-small Guía rápida de uso de datáfono
                       .col-sm-auto
-                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2 -Guia-rapida-del-datafono.pdf')" target="_blank")
+                        a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_2-Guia-rapida-del-datafono.pdf')" target="_blank")
                           span Descargar
                           i.fas.fa-file-download
           
@@ -331,7 +331,7 @@
 
             .col-md-5
               figure
-                img(src='@/assets/curso/t3-d1.jpg', alt='imagen decorativa')
+                img(src='@/assets/curso/t3-d2.svg', alt='imagen decorativa')
           .row(numero="5" titulo="Cierre diario de operaciones")
             .col-md-7.mb-md-0
               p.mb-3 Este proceso, como ya se ha mencionado, es automático; es decir, solo se debe lanzar el proceso de auditoría y esperar que este termine. Recuerde que, previo a lanzar el procedimiento, debe verificar que no haya interfaces abiertas.
@@ -354,7 +354,7 @@
 
             .col-md-5
               figure
-                img(src='@/assets/curso/t3-d1.jpg', alt='imagen decorativa')
+                img(src='@/assets/curso/t3-d3.svg', alt='imagen decorativa')
                   
 
 
