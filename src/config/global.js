@@ -234,8 +234,7 @@ export default {
       texto:
         'Cartilla Uso del SIRE: Migración Colombia. (2013). <i>Cartilla de Usuario Externo SIRE</i>. Ministerio de Relaciones Exteriores.',
       tipo: 'Cartilla en pdf',
-      link:
-        'http://educa.barranquilla.edu.co/attachments/article/1034/Manual%20de%20Usuario%20SIRE.pdf',
+      descarga: '/downloads/manual_de_Usuario_SIRE.pdf',
     },
   ],
   creditos: {
