@@ -108,7 +108,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '4.3',
-            titulo: 'Procedimiento de manejo',
+            titulo: 'Sistema de PQRS',
             hash: 't_4_3',
           },
           {

@@ -32,7 +32,7 @@
           .row(data-aos="slide-right")
             .col-md-10
               .h4 Recuperar las llaves
-              p De una forma cortés, se debe solicitar la llave y ubicarla en el respectivo rack. Si la solicitud se recibe telefónicamente, se debe ofrecer ayuda para bajar el equipaje y, en caso de respuesta positiva, informar al botones.
+              p De una forma cortés, se debe solicitar la llave y ubicarla en el respectivo <i>rack</i>. Si la solicitud se recibe telefónicamente, se debe ofrecer ayuda para bajar el equipaje y, en caso de respuesta positiva, informar al botones.
 
             .col-md-2.mb-4.mb-md-0
               figure
@@ -48,7 +48,7 @@
 
           .row(data-aos="slide-right")
             .col-md-10
-              .h4 Anunciar check-out a las áreas
+              .h4 Anunciar <i>check-out</i> a las áreas
               p Avisar a las demás áreas del hotel que la habitación va siendo desalojada, para que los centros de facturación cierren las cuentas que tengan abiertas y el departamento encargado verifique los últimos consumos de minibar.
 
             .col-md-2.mb-4.mb-md-0
@@ -87,12 +87,12 @@
               figure
                 img.nW(src='@/assets/curso/t2-ic8.svg', alt='icono decorativo')
             .col-lg-10    
-              p.mb-3  En la mayoría de los sistemas PMS, este proceso es bastante intuitivo, lo que le ayudará a minimizar los tiempos en el proceso. A continuación, puede ver un proceso de check-out en un sistema de gestión de propiedad.
+              p.mb-3  En la mayoría de los sistemas PMS, este proceso es bastante intuitivo, lo que le ayudará a minimizar los tiempos en el proceso. A continuación, puede ver un proceso de <i>check-out</i> en un sistema de gestión de propiedad.
               a.anexo.mb-4.mb-lg-0(href="https://www.youtube.com/watch?v=QTEzACI8q1g" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p <b>Enlace web.</b> https://www.youtube.com/watch?v=QTEzACI8q1g
+                  p <b>Vea aquí el video</b> https://www.youtube.com/watch?v=QTEzACI8q1g
 
 
 

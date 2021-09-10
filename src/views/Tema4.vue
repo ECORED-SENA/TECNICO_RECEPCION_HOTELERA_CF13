@@ -48,7 +48,7 @@
         figure.mb-5
           img(src="@/assets/curso/t4-ic1.svg", alt="icono decorativo")
       .col-lg-10(data-aos="slide-right")
-        p.mb-0  En el día a día de la operación hotelera y cada vez que un cliente se acerca al counter de recepción o usa medios escritos o digitales para contactar al hotel, se genera una comunicación y es importante determinar qué tipo de contacto es el que está realizando el cliente, y de acuerdo con esto, manejarlo de la forma adecuada. Tener un sistema consolidado de gestión de PQRS brinda la oportunidad de fortalecer el servicio, mejorar la operatividad y brindar una excelente experiencia de usuario.
+        p.mb-0  En el día a día de la operación hotelera y cada vez que un cliente se acerca al <i>counter</i> de recepción o usa medios escritos o digitales para contactar al hotel, se genera una comunicación y es importante determinar qué tipo de contacto es el que está realizando el cliente, y de acuerdo con esto, manejarlo de la forma adecuada. Tener un sistema consolidado de gestión de PQRS brinda la oportunidad de fortalecer el servicio, mejorar la operatividad y brindar una excelente experiencia de usuario.
 
     figcaption.customCaption.mb-2 <b>Figura</b> Tipos de solicitudes
     .row.mb-5
@@ -98,7 +98,7 @@
     br
     br
     #t_4_3.titulo-segundo
-      h2 4.3. Procedimiento de manejo
+      h2 4.3. Sistema de PQRS
     .row.mb-4
       .col-lg-2(data-aos="slide-left")
         figure.mb-5

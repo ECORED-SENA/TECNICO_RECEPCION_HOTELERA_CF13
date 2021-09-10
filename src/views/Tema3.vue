@@ -8,8 +8,6 @@
         span 3
       h1 Auditoría nocturna
     
-    #t_3_1.titulo-segundo
-      h2 3.1 Objetivo
     .row.mb-5
       .col-lg-7
         p.mb-5  El procedimiento de la auditoría nocturna es un proceso de control. Consiste en una revisión lenta y detallada de todas las transacciones financieras de las cuentas huésped y los departamentos del hotel, cada día del año. Al final de este proceso, se obtiene el saldo de las cuentas huésped y se corrigen los posibles errores que pudieran haberse cometido durante la operación diaria.
@@ -18,7 +16,8 @@
       .col-lg-5
         figure.mb-5(data-aos="fade-up")
           img(src="@/assets/curso/t3-i1.jpg", alt="imagen decorativa")
-
+    #t_3_1.titulo-segundo
+      h2 3.1 Objetivo
     p.mb-5.text-bold  El proceso de auditoría realiza un seguimiento (control) de los cargos y pagos (débitos y créditos) y de los recibos de soporte de cargos departamentales, a diario. 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -45,7 +44,7 @@
           img.nW(src="@/assets/curso/t3-ic1.svg", alt="imagen decorativa")
       .col-lg-10
         p.mb-3  Aprender el proceso de auditoría nocturna dará habilidades valiosas para alguien que planea continuar en la industria hotelera. También ofrece la visión general objetiva necesaria para evaluar la actividad financiera del hotel. Desde su rol de aprendiz, en la auditoría nocturna usted podrá tomar conciencia del papel del gerente general, ya que la auditoría nocturna revisa toda la actividad financiera que se lleva a cabo en un hotel en un día.
-        p.mb-0  Con base en esa verificación, un gerente general puede determinar cómo debe adaptarse la operación para cumplir con los objetivos de gastos y beneficios para el periodo contable y ver si los planes de marketing y las actividades comerciales y operativas están marchando con eficiencia.
+        p.mb-0  Con base en esa verificación, un gerente general puede determinar cómo debe adaptarse la operación para cumplir con los objetivos de gastos y beneficios para el periodo contable y ver si los planes de <i>marketing</i> y las actividades comerciales y operativas están marchando con eficiencia.
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.color-secundario.p-4(data-aos="flip-up")
@@ -67,6 +66,7 @@
           img.nW(src="@/assets/curso/t3-i2.jpg", alt="imagen decorativa")
     .row.mb-5.justify-content-center
       .col-lg-12
+        figcaption.customCaption <b>Figura 1</b> <i>Proceso de revisión</i>
         figure.mb-5(data-aos="fade-up")
           img(src="@/assets/curso/t3-info1.svg", alt="imagen decorativa")
 
@@ -243,7 +243,7 @@
                     img(src='@/assets/curso/overlay3.jpg', alt='imagen decorativa')
                   figcaption  Nota. Adaptado de eZee BurrP (s. f.)
 
-          .row(numero="6" titulo="Revisión de tarifas e impuestos")
+          .row(numero="6" titulo="Verificar garantías de pago")
             .col-md-2.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t3-ic7.svg', alt='imagen decorativa')
@@ -263,13 +263,13 @@
                   
               p.mb-3  Como esta es una revisión diaria, solo se revisan las reservas que llegaron ese día, para comprobar que todos los huéspedes tengan una forma de pago válida, que el hotel pueda hacer efectiva en caso de que el huésped no pase por caja a legalizar su salida.
 
-              p.mb-3  También conviene revisar si en las carpetas de los huéspedes que salieron aún reposan dichas garantías. Es bastante común que al momento del check-out los cajeros olviden devolver los cupones de tarjeta de crédito. Cuando esto sucede, se deben tomar estos cupones y relacionarlos. Estos se retienen para preservarlos y evitar que alguien haga un uso indebido de ellos.
+              p.mb-3  También conviene revisar si en las carpetas de los huéspedes que salieron aún reposan dichas garantías. Es bastante común que al momento del <i>check-out</i> los cajeros olviden devolver los cupones de tarjeta de crédito. Cuando esto sucede, se deben tomar estos cupones y relacionarlos. Estos se retienen para preservarlos y evitar que alguien haga un uso indebido de ellos.
     //-- dropdown 2
     h3.titulo-tercero Fase de cierre de sistemas
     .row.mb-5.justify-content-center
       .col-lg-10 
         LineaTiempoD.color-acento-contenido.mb-5
-          .row(numero="1" titulo="Conciliación de los movimientos financieros departamentales")
+          .row(numero="1" titulo="Cierre de interfases")
             .col-md-7.mb-md-0
               p.mb-3 Uno de los requisitos para que el proceso de auditoría se desarrolle sin contratiempo es que solo el equipo (computador) del auditor esté logueado al momento de lanzar el proceso. Esto se hace para preservar el sistema de cargos posteados desde esas estaciones y errores que se puedan causar una vez esté en ejecución el proceso.
               p.mb-3 Así que, una vez terminan los turnos de los ambientes, y como ya se han revisado dichos movimientos, se puede ejecutar el comando del PMS para revisar que no haya estaciones abiertas. Este proceso se puede volver a hacer justo antes de correr el proceso de auditoría.
@@ -308,10 +308,10 @@
                   p La primera es si la reserva se deja pasar en auditoría como no show, es decir que, dentro del proceso de cierre, el mismo sistema hizo la cancelación y marcó la reserva como “No Show”. Esto se realiza con base en la política del hotel y sobre todo si la reserva tiene garantía de la cual se pueda cobrar la penalidad en caso de no llegar.
                 li
                   i.fas.fa-check
-                  p La segunda situación es que de antemano se conozca la hora de arribo de la reserva. Si esta llega más tarde, se puede dar check-in a la reserva para que, al procesar las tarifas, esta cargue automáticamente.
+                  p La segunda situación es que de antemano se conozca la hora de arribo de la reserva. Si esta llega más tarde, se puede dar <i>check-in</i> a la reserva para que, al procesar las tarifas, esta cargue automáticamente.
                 li
                   i.fas.fa-check
-                  p La última opción es cancelar la reserva. Esta opción se aplica a reservas sin garantía. También es importante revisar la duración de la estadía. El criterio no es igual para una reserva que pernoctaría una sola noche a otra que estaría 10 noches.V
+                  p La última opción es cancelar la reserva. Esta opción se aplica a reservas sin garantía. También es importante revisar la duración de la estadía. El criterio no es igual para una reserva que pernoctaría una sola noche a otra que estaría 10 noches.
               p.mb-3  En resumen, en este paso se debe resolver el estatus de cada una de esas reservas faltantes.
               a.boton.color-acento-botones.mb-5.indicador__container(@click="modal4 = true")
                 span Ver documento de ejemplo
@@ -427,7 +427,7 @@
                 img(src='@/assets/curso/t3-s1.jpg', alt='recepcionista de hotel respondiendo al telefono')
             .col-md-6.mb-4.mb-md-0
               .h4 Venta de habitaciones
-              p Es preciso recordar que el alojamiento es la principal fuente de ingresos para el hotel y el departamento que proporciona el mayor beneficio. Por lo tanto, el gerente, Revenue Manager, Mercadeo & Ventas y el gerente de recepción también querrán conocer esta cifra. Este es un dato importante de monitorear diariamente.
+              p Es preciso recordar que el alojamiento es la principal fuente de ingresos para el hotel y el departamento que proporciona el mayor beneficio. Por lo tanto, el gerente, <i>Revenue Manager</i>, Mercadeo & Ventas y el gerente de recepción también querrán conocer esta cifra. Este es un dato importante de monitorear diariamente.
 
         .py-3.py-md-4(titulo="Totales departamentales de alimentos y bebidas")
           .row         
@@ -445,8 +445,8 @@
                 img(src='@/assets/curso/t3-s3.jpg', alt='recepcionista de hotel respondiendo al telefono')
             .col-md-6.mb-4.mb-md-0
               .h4 Total de ocupación
-              p.mb-3 Estas cifras proporcionan al gerente general, al revenue manager, gerente de la recepción y al departamento de mercadeo & ventas una visión sobre la eficacia de la publicidad y mercadeo en la promoción del hotel. 
-              p.mb-3 Proporciona detalles financieros de fondo de lo que funciona y lo que no, con respecto a marketing en línea e impresos, llamadas en frío, etc. Cuando los totales diarios caen por debajo de las cifras proyectadas, se necesita un esfuerzo grupal para determinar qué medidas se deben tomar para revitalizar el marketing.
+              p.mb-3 Estas cifras proporcionan al gerente general, al <i>revenue manager</i>, gerente de la recepción y al departamento de mercadeo & ventas una visión sobre la eficacia de la publicidad y mercadeo en la promoción del hotel. 
+              p.mb-3 Proporciona detalles financieros de fondo de lo que funciona y lo que no, con respecto a <i>marketing</i> en línea e impresos, llamadas en frío, etc. Cuando los totales diarios caen por debajo de las cifras proyectadas, se necesita un esfuerzo grupal para determinar qué medidas se deben tomar para revitalizar el <i>marketing</i>.
 
         .py-3.py-md-4(titulo="Recomendaciones")
           .row.justify-content-center         
@@ -472,7 +472,7 @@
                 li
                   i.fas.fa-check
                   p ¿No estamos pidiendo tarjetas de crédito para garantizar las reservas de habitación? 
-              p.mb-3  Cuando surgen estas preguntas, el gerente general hará seguimiento al gerente departamental correspondiente; a manera de ejemplo, el director de mantenimiento (habitaciones OOO); gerente de marketing & ventas (cuota de alojamiento de grupos) o gerente de recepción (reservas sin tarjeta de crédito). Estos ejemplos ilustran algunas de las muchas situaciones que se presentan día a día en la operación hotelera.
+              p.mb-3  Cuando surgen estas preguntas, el gerente general hará seguimiento al gerente departamental correspondiente; a manera de ejemplo, el director de mantenimiento (habitaciones OOO); gerente de <i>marketing</i> & ventas (cuota de alojamiento de grupos) o gerente de recepción (reservas sin tarjeta de crédito). Estos ejemplos ilustran algunas de las muchas situaciones que se presentan día a día en la operación hotelera.
 
       h4.titulo-cuarto  Reporte de saldos elevados
       .row.mb-5
@@ -495,7 +495,7 @@
           figure
             img.nW(src='@/assets/curso/t3-ic11.svg', alt='icono decorativo')
         .col-lg-10
-          p.mb-3  El informe del gerente es un listado de las estadísticas de ocupación del día anterior, tales como porcentaje de ocupación, porcentaje de rendimiento, tarifa diaria promedio, RevPAR y el número de huéspedes. Estos datos son necesarios para monitorear el funcionamiento de un negocio financieramente viable. El gerente general, el contralor, el gerente de recepción y el director de marketing y ventas revisan estas estadísticas diariamente.
+          p.mb-3  El informe del gerente es un listado de las estadísticas de ocupación del día anterior, tales como porcentaje de ocupación, porcentaje de rendimiento, tarifa diaria promedio, RevPAR y el número de huéspedes. Estos datos son necesarios para monitorear el funcionamiento de un negocio financieramente viable. El gerente general, el contralor, el gerente de recepción y el director de <i>marketing</i> y ventas revisan estas estadísticas diariamente.
           p.mb-3  Adicionalmente, y de acuerdo con la configuración del PMS, se presentan algunos otros reportes, pero, en general, se trata de reportes de operación y estadísticos detallados.
 
 

@@ -10,7 +10,7 @@
     .row.mb-5
       .col-lg-6
         p.mb-3.text-bold Se denomina así al proceso en el que el huésped termina su estadía, liquida su cuenta y deja el hotel, culminando así el denominado ciclo del huésped. Este procedimiento se informa a los otros departamentos.
-        p.mb-3  Aunque no existe una hora estándar, la mayoría de los establecimientos de alojamiento fijan su hora de check-out alrededor del medio día, ya que de esta depende también la implementación de una hora de check-in, teniendo en cuenta que la diferencia es el tiempo utilizado para aplicar los protocolos de limpieza y desinfección, garantizando la correcta asepsia al cliente que llega a ocupar la habitación. Una vez establecida la hora de salida, es importante comunicársela al huésped al momento de su ingreso al hotel, como parte del proceso de registro (check-in).
+        p.mb-3  Aunque no existe una hora estándar, la mayoría de los establecimientos de alojamiento fijan su hora de <i>check-out</i> alrededor del medio día, ya que de esta depende también la implementación de una hora de <i>check-in</i>, teniendo en cuenta que la diferencia es el tiempo utilizado para aplicar los protocolos de limpieza y desinfección, garantizando la correcta asepsia al cliente que llega a ocupar la habitación. Una vez establecida la hora de salida, es importante comunicársela al huésped al momento de su ingreso al hotel, como parte del proceso de registro (<i>check-in</i>).
       .col-lg-6
         figure.mb-5(data-aos="fade-up")
           img(src="@/assets/curso/t1-i1.jpg", alt="imagen decorativa")
@@ -31,7 +31,7 @@
         p.mb-3.text-bold(data-aos="fade-up") El <i>late check-out</i> se presenta cuando el huésped solicita dejar la habitación más tarde de lo establecido.
         p.mb-3(data-aos="fade-up")  Este es un servicio cuya demanda está en aumento en ciertos destinos, ya que ofrece nuevas posibilidades a la hora de organizar el viaje. Con ello, se permite al cliente dejar tarde la habitación: a las dos (2:00 pm) o incluso a las seis (6:00 pm), según el caso. Esto da nuevas oportunidades a los clientes, dependiendo de su motivo de viaje; unos podrán disfrutar de su última noche en el hotel y no tener que madrugar, otros podrán aprovechar la mañana tranquilamente, sin tener que estar pendientes de la hora de salida.
         .cajon.color-secundario.p-4(data-aos="flip-up")
-          p.mb-0  También es un servicio muy útil para clientes que tengan una reunión por la mañana del día de check-out, estos podrán dejar sus maletas en la habitación y, después de la reunión, volver al hotel para darse una ducha o descansar un rato antes de salir. Este servicio se ofrece según disponibilidad y puede conllevar un costo. El early check-in (registro antes de la hora) es una práctica menos extendida pero que también existe.
+          p.mb-0  También es un servicio muy útil para clientes que tengan una reunión por la mañana del día de <i>check-out</i>, estos podrán dejar sus maletas en la habitación y, después de la reunión, volver al hotel para darse una ducha o descansar un rato antes de salir. Este servicio se ofrece según disponibilidad y puede conllevar un costo. El <i>early check-in</i> (registro antes de la hora) es una práctica menos extendida pero que también existe.
 
 
     Separador
@@ -64,7 +64,7 @@
         figure.mb-5(data-aos="slide-left")
           img(src="@/assets/curso/t1-ic2.svg", alt="imagen decorativa")
       .col-lg-10
-        p(data-aos="slide-right") También conocidas como early departure, son aquellas reservas que no completan el periodo de estadía planteado inicialmente, dejando el hotel antes de lo previsto. En muchos establecimientos, cuando esto se anuncia posterior a la hora fijada como límite de check-out, se realiza un cobro que va entre el 50 y el 100% del valor de la noche, dependiendo de la política fijada, la cual depende básicamente de la demanda y la posibilidad de ocupar esa habitación que va a quedar disponible.
+        p(data-aos="slide-right") También conocidas como early departure, son aquellas reservas que no completan el periodo de estadía planteado inicialmente, dejando el hotel antes de lo previsto. En muchos establecimientos, cuando esto se anuncia posterior a la hora fijada como límite de <i>check-out</i>, se realiza un cobro que va entre el 50 y el 100% del valor de la noche, dependiendo de la política fijada, la cual depende básicamente de la demanda y la posibilidad de ocupar esa habitación que va a quedar disponible.
 
 
 
