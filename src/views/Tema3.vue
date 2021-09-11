@@ -66,7 +66,7 @@
           img.nW(src="@/assets/curso/t3-i2.jpg", alt="imagen decorativa")
     .row.mb-5.justify-content-center
       .col-lg-12
-        figcaption.customCaption <b>Figura 1</b> <i>Proceso de revisión</i>
+        .h3 Proceso de revisión
         figure.mb-5(data-aos="fade-up")
           img(src="@/assets/curso/t3-info1.svg", alt="imagen decorativa")
 
