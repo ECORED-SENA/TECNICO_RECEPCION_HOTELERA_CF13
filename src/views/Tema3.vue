@@ -243,7 +243,7 @@
                     img(src='@/assets/curso/overlay3.jpg', alt='imagen decorativa')
                   figcaption  Nota. Adaptado de eZee BurrP (s. f.)
 
-          .row(numero="6" titulo="Verificar garantías de pago")
+          .row(numero="6" titulo="Verificar garantías de pago de los huéspedes")
             .col-md-2.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/t3-ic7.svg', alt='imagen decorativa')
