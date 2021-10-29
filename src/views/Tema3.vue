@@ -29,6 +29,11 @@
     
     #t_3_2.titulo-segundo
       h2 3.2 El auditor nocturno
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Sf7m_p-sTPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
     p.mb-5.text-bold  El auditor nocturno tiene muchas responsabilidades, además de realizar la revisión nocturna y preparar los informes de auditoría nocturna
     .row.justify-content-center.mb-5
       .col-lg-10
