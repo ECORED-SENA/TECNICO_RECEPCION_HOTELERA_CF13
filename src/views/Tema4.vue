@@ -51,48 +51,48 @@
         p.mb-0  En el día a día de la operación hotelera y cada vez que un cliente se acerca al <i>counter</i> de recepción o usa medios escritos o digitales para contactar al hotel, se genera una comunicación y es importante determinar qué tipo de contacto es el que está realizando el cliente, y de acuerdo con esto, manejarlo de la forma adecuada. Tener un sistema consolidado de gestión de PQRS brinda la oportunidad de fortalecer el servicio, mejorar la operatividad y brindar una excelente experiencia de usuario.
 
     figcaption.customCaption.mb-2 <b>Figura</b> Tipos de solicitudes
-    .row.mb-5
-      .col-lg-4
+    .row.mb-5.justify-content-center
+      .col-xs-6.col-sm-6.col-lg-5.col-xl-4 
         .nav-holder.align-items-center
           img(src="@/assets/curso/t4-i3.svg", alt="Imagen decorativa")
           .text.p-lg-3.p-4
             .row.px-lg-3.mb-lg-2
               p.h3 Peticiones
-              p Las peticiones son las interacciones verbales, escritas, o digitales, por medio de la cuales un usuario, de manera respetuosa, solicita a la empresa una intervención en un asunto puntual y concreto relacionado con el servicio. La petición puede ser una solicitud o una información.
-
-      .col-lg-4
+              p.mb-3.small Las peticiones son las interacciones verbales, escritas, o digitales, por medio de las cuales un usuario, de manera respetuosa, solicita a la empresa una intervención en un asunto puntual y concreto relacionado con el servicio. La petición puede ser una solicitud o una información.
+              br
+      .col-xs-6.col-sm-6.col-lg-5.col-xl-4 
         .nav-holder.align-items-center
           img(src="@/assets/curso/t4-i4.svg", alt="Imagen decorativa")
           .text.p-lg-3.p-4
             .row.px-lg-3.mb-lg-2
               p.h3 Quejas
-              p Son la expresión o manifestación verbal, escrita o digital que hace el usuario a la empresa por inconformidad generada en la prestación del servicio.
-
-      .col-lg-4
+              p.small Son la expresión o manifestación verbal, escrita o digital que hace el usuario a la empresa por inconformidad generada en la prestación del servicio.
+              br
+      .col-xs-6.col-sm-6.col-lg-6.col-xl-4 
         .nav-holder.align-items-center
           img(src="@/assets/curso/t4-i5.svg", alt="Imagen decorativa")
           .text.p-lg-3.p-4
             .row.px-lg-3.mb-lg-2
               p.h3 Reclamos
-              p Son una inconformidad o contrariedad presentada por el usuario, referida a la prestación del servicio o producto comercializado, que incumple un derecho en el cual el usuario se siente perjudicado o amenazado, con el objeto de que se revise y evalúe una contraprestación en términos económicos. 
-    
-    .row.mb-5.justify-content-center
-      .col-lg-4    
+              p.small Son una inconformidad o contrariedad presentada por el usuario, referida a la prestación del servicio o producto comercializado, que incumple un derecho en el cual el usuario se siente perjudicado o amenazado, con el objeto de que se revise y evalúe una contraprestación en términos económicos. 
+              br
+      .clearfix
+      .col-xs-6.col-sm-6.col-lg-5.col-xl-4     
         .nav-holder.align-items-center
           img(src="@/assets/curso/t4-i6.svg", alt="Imagen decorativa")
           .text.p-lg-3.p-4
             .row.px-lg-3.mb-lg-2
               p.h3 Sugerencias
-              p Son expresiones verbales, escritas o digitales en las que el usuario presenta una propuesta para incidir en el mejoramiento de un proceso de la empresa que está relacionado con la prestación del servicio.  
-
-      .col-lg-4    
+              p.small Son expresiones verbales, escritas o digitales en las que el usuario presenta una propuesta para incidir en el mejoramiento de un proceso de la empresa que está relacionado con la prestación del servicio.  
+              br
+      .col-xs-6.col-sm-6.col-lg-5.col-xl-4    
         .nav-holder.align-items-center
           img(src="@/assets/curso/t4-i7.svg", alt="Imagen decorativa")
           .text.p-lg-3.p-4
             .row.px-lg-3.mb-lg-2
               p.h3 Felicitaciones
-              p Son expresiones en las que un usuario manifiesta su gratitud o agrado por un servicio que se le ha prestado y que ha causado una gran impresión en él. Por lo general, las felicitaciones van dirigidas a una persona en particular. 
-
+              p.small Son expresiones en las que un usuario manifiesta su gratitud o agrado por un servicio que se le ha prestado y que ha causado una gran impresión en él. Por lo general, las felicitaciones van dirigidas a una persona en particular. 
+              br
 
     Separador
     br
